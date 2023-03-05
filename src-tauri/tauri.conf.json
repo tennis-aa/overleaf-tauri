@@ -1,0 +1,38 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "https://www.overleaf.com",
+    "distDir": "https://www.overleaf.com",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "overleaf-tauri",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "identifier": "overleaf-tauri",
+      "targets": "all",
+      "category": "Productivity",
+      "icon": ["icons/icon.ico"]
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "tauri-overleaf",
+        "maximized": true,
+        "fileDropEnabled": false
+      }
+    ]
+  }
+}
